@@ -192,7 +192,7 @@ const content = {
     "publications.eyebrow": "论文与成果",
     "publications.heading": "代表性工作",
     "publications.pub1.body":
-      "Y. Lyu, N. L. Bindoff, S. Mohapatra, S. Rathore, and H. E. Phillips. <em>Journal of Geophysical Research: Oceans</em>, 130(9), e2024JC022278。",
+      "Y. Lyu, N. L. Bindoff, S. Mohapatra, S. Rathore, and H. E. Phillips. <em>Journal of Geophysical Research: Oceans</em>, 130(9), e2024JC022278.",
     "publications.pub2.body":
       "S. Mohapatra, A. Sen Gupta, N. L. Bindoff, and Y. Lyu. <em>Earth System Science Data Discussions</em>, 审稿中。",
     "publications.pub3.body":
