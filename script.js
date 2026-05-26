@@ -17,7 +17,7 @@ const content = {
     "hero.affiliation":
       "Australian Centre for Excellence in Antarctic Science (ACEAS)<br />Institute for Marine and Antarctic Studies (IMAS), University of Tasmania<br />Hobart, Tasmania, Australia",
     "hero.summary":
-      "I study how ocean salinity records changes in the global water cycle and ocean circulation. My PhD includes an introduction, four main research chapters, and a conclusion. The research moves from observed mechanisms of salinity pattern amplification, to CMIP6 historical evaluation, to future sea-surface salinity (SSS) change and its relationship with global warming, and finally to future salinity change within the ocean interior.",
+      "Ocean salinity is more than the ocean's rain gauge: it carries the imprint of freshwater forcing, circulation, mixing, and water-mass history. My PhD follows that signal from observed mixed-layer salinity budgets and CMIP6 historical evaluation to future SSS responses under global warming, then into the full-depth ocean interior where forced salinity change emerges from natural variability.",
     "diagnostic.1.title": "Observed salinity mechanisms",
     "diagnostic.1.body":
       "Diagnose how surface freshwater forcing, advection, vertical exchange, and mixing shape observed salinity change.",
@@ -125,7 +125,7 @@ const content = {
     "hero.affiliation":
       "澳大利亚南极科学卓越中心（ACEAS）<br />塔斯马尼亚大学 海洋与南极研究所（IMAS）<br />澳大利亚塔斯马尼亚州霍巴特",
     "hero.summary":
-      "我的研究关注海洋盐度如何记录全球水循环和海洋环流的变化。我的博士论文包括一个引言、四个主要研究章节和一个结论。研究主线从观测盐度格局放大的机制出发，进入 CMIP6 historical 模式评估，再到未来海表盐度（SSS）变化及其与全球变暖的关系，最后延伸到海洋内部未来盐度变化。",
+      "海洋盐度不只是海洋里的“雨量计”：它同时记录淡水强迫、环流、混合和水团历史。我的博士研究沿着这条盐度信号展开：从观测中的混合层盐度收支和 CMIP6 historical 模式评估，到全球变暖下未来 SSS 的响应，再到海洋全深度内部被强迫的盐度变化如何从自然变率中显现。",
     "diagnostic.1.title": "观测盐度变化机制",
     "diagnostic.1.body": "诊断表层淡水强迫、平流、垂向交换和混合如何共同塑造观测到的盐度变化。",
     "diagnostic.2.title": "CMIP6 模式评估",
