@@ -17,7 +17,7 @@ const content = {
     "hero.affiliation":
       "Australian Centre for Excellence in Antarctic Science (ACEAS)<br />Institute for Marine and Antarctic Studies (IMAS), University of Tasmania<br />Hobart, Tasmania, Australia",
     "hero.summary":
-      "I study how ocean salinity records changes in the global water cycle and ocean circulation. My PhD includes an introduction, four article-style research chapters, and a conclusion. The research moves from observed mechanisms of salinity pattern amplification, to CMIP6 historical evaluation, to future sea-surface salinity (SSS) change and its relationship with global warming, and finally to future salinity change within the ocean interior.",
+      "I study how ocean salinity records changes in the global water cycle and ocean circulation. My PhD includes an introduction, four main research chapters, and a conclusion. The research moves from observed mechanisms of salinity pattern amplification, to CMIP6 historical evaluation, to future sea-surface salinity (SSS) change and its relationship with global warming, and finally to future salinity change within the ocean interior.",
     "diagnostic.1.title": "Observed salinity mechanisms",
     "diagnostic.1.body":
       "Diagnose how surface freshwater forcing, advection, vertical exchange, and mixing shape observed salinity change.",
@@ -38,7 +38,7 @@ const content = {
     "process.3.label": "Future change",
     "process.3.title": "Scenario responses · pattern shifts",
     "chapters.eyebrow": "Research chapters",
-    "chapters.heading": "Four article-style chapters",
+    "chapters.heading": "PhD research chapters",
     "chapter1.kicker": "Chapter 1 · Published article",
     "chapter1.title": "Global water-cycle pattern amplification: contributing factors and mechanisms",
     "chapter1.body1":
@@ -125,7 +125,7 @@ const content = {
     "hero.affiliation":
       "澳大利亚南极科学卓越中心（ACEAS）<br />塔斯马尼亚大学 海洋与南极研究所（IMAS）<br />澳大利亚塔斯马尼亚州霍巴特",
     "hero.summary":
-      "我的研究关注海洋盐度如何记录全球水循环和海洋环流的变化。我的博士论文包括一个引言、四个文章式研究章节和一个结论。研究主线从观测盐度格局放大的机制出发，进入 CMIP6 historical 模式评估，再到未来海表盐度（SSS）变化及其与全球变暖的关系，最后延伸到海洋内部未来盐度变化。",
+      "我的研究关注海洋盐度如何记录全球水循环和海洋环流的变化。我的博士论文包括一个引言、四个主要研究章节和一个结论。研究主线从观测盐度格局放大的机制出发，进入 CMIP6 historical 模式评估，再到未来海表盐度（SSS）变化及其与全球变暖的关系，最后延伸到海洋内部未来盐度变化。",
     "diagnostic.1.title": "观测盐度变化机制",
     "diagnostic.1.body": "诊断表层淡水强迫、平流、垂向交换和混合如何共同塑造观测到的盐度变化。",
     "diagnostic.2.title": "CMIP6 模式评估",
@@ -143,7 +143,7 @@ const content = {
     "process.3.label": "未来变化",
     "process.3.title": "情景响应 · 格局重组",
     "chapters.eyebrow": "研究章节",
-    "chapters.heading": "四个文章式研究章节",
+    "chapters.heading": "PhD主要研究章节",
     "chapter1.kicker": "第一章 · 已发表文章",
     "chapter1.title": "全球水循环格局放大：贡献因子与机制",
     "chapter1.body1":
