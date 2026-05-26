@@ -278,7 +278,7 @@
                 Tracking human and natural changes in ocean salinity: evidence for Earth's
                 accelerating water cycle.
               </p>
-              <p data-i18n="background.phd.supervisors">Supervisors: Nathaniel Bindoff, Helen Phillips, and Sandeep Mohapatra.</p>
+              <p data-i18n="background.phd.supervisors">Supervisors and collaborators: Nathaniel Bindoff, Helen Phillips, Sandeep Mohapatra, Saurabh Rathore, and Jiheun Lee.</p>
             </article>
             <article>
               <span>2021</span>
@@ -315,5 +315,24 @@
     </footer>
 
     <script src="script-human.js?v=methods-heading"></script>
+    <script>
+      (() => {
+        const collaboratorText = {
+          en: "Supervisors and collaborators: Nathaniel Bindoff, Helen Phillips, Sandeep Mohapatra, Saurabh Rathore, and Jiheun Lee.",
+          zh: "导师和合作者：Nathaniel Bindoff、Helen Phillips、Sandeep Mohapatra、Saurabh Rathore 和 Jiheun Lee。",
+        };
+        const updateCollaborators = () => {
+          const element = document.querySelector('[data-i18n="background.phd.supervisors"]');
+          if (!element) return;
+          const language = document.body.dataset.language === "zh" ? "zh" : "en";
+          element.textContent = collaboratorText[language];
+        };
+
+        updateCollaborators();
+        document.querySelectorAll("[data-language-button]").forEach((button) => {
+          button.addEventListener("click", () => window.setTimeout(updateCollaborators, 0));
+        });
+      })();
+    </script>
   </body>
 </html>
