@@ -97,7 +97,8 @@ const content = {
     "background.phd.title": "PhD candidate, University of Tasmania",
     "background.phd.body":
       "Tracking human and natural changes in ocean salinity: evidence for Earth's accelerating water cycle.",
-    "background.phd.supervisors": "Supervisors: Nathaniel Bindoff, Helen Phillips, and Sandeep Mohapatra.",
+    "background.phd.supervisors":
+      "Supervisors and collaborators: Nathaniel Bindoff, Helen Phillips, Sandeep Mohapatra, Saurabh Rathore, and Jiheun Lee.",
     "background.bsc1.title": "BSc, Marine and Antarctic Science, University of Tasmania",
     "background.bsc1.body": "Physical oceanography.",
     "background.bsc2.title": "BSc, Marine Science, Ocean University of China",
@@ -201,7 +202,8 @@ const content = {
     "background.phd.date": "2022 至 2026 预计完成",
     "background.phd.title": "博士候选人，塔斯马尼亚大学",
     "background.phd.body": "追踪人类活动和自然变率引起的海洋盐度变化：地球水循环加速的证据。",
-    "background.phd.supervisors": "导师：Nathaniel Bindoff、Helen Phillips 和 Sandeep Mohapatra。",
+    "background.phd.supervisors":
+      "导师和合作者：Nathaniel Bindoff、Helen Phillips、Sandeep Mohapatra、Saurabh Rathore 和 Jiheun Lee。",
     "background.bsc1.title": "理学学士，塔斯马尼亚大学 Marine and Antarctic Science",
     "background.bsc1.body": "物理海洋学。",
     "background.bsc2.title": "理学学士，中国海洋大学 Marine Science",
