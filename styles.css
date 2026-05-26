@@ -187,7 +187,9 @@ img {
   border: 1px solid rgba(16, 32, 38, 0.1);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  justify-self: center;
   margin: 0;
+  max-width: 320px;
   overflow: hidden;
   width: 100%;
 }
@@ -530,7 +532,7 @@ img {
   }
 
   .portrait-wrap {
-    max-width: 480px;
+    max-width: 320px;
   }
 
   .diagnostic-strip {
@@ -572,6 +574,7 @@ img {
 
   .portrait-wrap {
     margin-top: 40px;
+    max-width: 320px;
   }
 
   .eyebrow,
