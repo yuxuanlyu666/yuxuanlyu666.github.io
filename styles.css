@@ -164,6 +164,7 @@ img {
 .section-heading h2,
 .section-intro h2,
 .background-grid h2 {
+  hyphens: none;
   letter-spacing: 0;
   line-height: 1.03;
   margin: 0;
