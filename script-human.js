@@ -28,7 +28,7 @@ const content = {
     "diagnostic.3.body":
       "Connect future SSS change with global warming, then follow the signal below the surface.",
     "research.eyebrow": "Research focus",
-    "research.heading": "Ocean salinity reveals an accelerating water cycle in a changing climate",
+    "research.heading": "Ocean salinity reveals an accelerating water cycle under changing climate",
     "research.body":
       "Salinity is often called the ocean's rain gauge, but the ocean does not passively record rainfall and evaporation. Currents, mixed layer depth, entrainment, subduction, and internal variability all reshape the freshwater signal. I use mixed layer salt budgets to diagnose observed salinity change, then test how well CMIP6 historical simulations reproduce the same structure, variability, and trends. From there, I ask how salinity responds under future climate scenarios, and where familiar patterns are amplified, weakened, or reorganized.",
     "process.1.label": "Observed mechanisms",
