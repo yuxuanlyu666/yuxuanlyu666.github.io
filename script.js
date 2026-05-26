@@ -28,7 +28,7 @@ const content = {
     "diagnostic.3.body":
       "Connect future SSS change with global warming, then follow the signal below the surface.",
     "research.eyebrow": "Research focus",
-    "research.heading": "Ocean salinity as a fingerprint of water cycle change",
+    "research.heading": "Ocean salinity reveals an accelerating water cycle in a changing climate",
     "research.body":
       "Salinity is often called the ocean's rain gauge, but the ocean does not passively record rainfall and evaporation. Currents, mixed layer depth, entrainment, subduction, and internal variability all reshape the freshwater signal. I use mixed layer salt budgets to diagnose observed salinity change, then test how well CMIP6 historical simulations reproduce the same structure, variability, and trends. From there, I ask how salinity responds under future climate scenarios, and where familiar patterns are amplified, weakened, or reorganized.",
     "process.1.label": "Observed mechanisms",
@@ -106,10 +106,10 @@ const content = {
     "skills.heading": "Scientific toolkit",
     "skills.item1": "Mixed layer salinity and freshwater budget diagnostics",
     "skills.item2": "CMIP6 historical, piControl, and ScenarioMIP analysis",
-    "skills.item3": "EOF and complex EOF methods for climate variability",
+    "skills.item3": "Spectral analysis, EOF, and complex EOF methods for climate variability",
     "skills.item4": "SSS pattern scaling with global warming",
     "skills.item5": "Interior ocean salinity and water mass diagnostics",
-    "skills.item6": "Large gridded data workflows, visualization, MATLAB, Bash, and HPC",
+    "skills.item6": "Python focused analysis, large gridded data workflows, visualization, Bash, MATLAB, and HPC",
   },
   zh: {
     title: "Yuxuan Lyu | 物理海洋学",
@@ -133,7 +133,7 @@ const content = {
     "diagnostic.3.title": "未来表层与内部盐度",
     "diagnostic.3.body": "将未来 SSS 变化与全球变暖联系起来，并进一步考察盐度变化如何储存在海表以下。",
     "research.eyebrow": "研究重点",
-    "research.heading": "海洋盐度作为水循环变化的指纹",
+    "research.heading": "海洋盐度揭示气候变化下加速的水循环",
     "research.body":
       "盐度常被描述为海洋中的“雨量计”，但这个说法并不完整。淡水信号会被洋流、混合层深度、夹卷、潜沉以及长期内部变率重新塑造。我的研究首先用混合层盐度收支分析识别观测盐度变化背后的机制；随后评估不同 CMIP6 模式对 historical 盐度结构、变率和趋势的再现能力；在此基础上，进一步研究不同未来气候情景下盐度如何响应，以及这些响应是否延续、放大或重组我们当前理解的盐度变化格局。",
     "process.1.label": "观测机制",
@@ -210,10 +210,10 @@ const content = {
     "skills.heading": "科研工具箱",
     "skills.item1": "混合层盐度与淡水收支诊断",
     "skills.item2": "CMIP6 historical、piControl 与 ScenarioMIP 分析",
-    "skills.item3": "EOF 与复 EOF 气候变率分析",
+    "skills.item3": "谱分析、EOF 与复 EOF 气候变率分析",
     "skills.item4": "SSS 随全球变暖的格局缩放",
     "skills.item5": "海洋内部盐度与水团诊断",
-    "skills.item6": "大规模格点数据流程、可视化、MATLAB、Bash 与 HPC",
+    "skills.item6": "以 Python 为主的大规模格点数据处理、可视化、Bash、MATLAB 与 HPC",
   },
 };
 
