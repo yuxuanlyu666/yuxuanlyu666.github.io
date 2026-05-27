@@ -8,14 +8,14 @@
       content="Yuxuan Lyu, PhD candidate at ACEAS and IMAS, studies ocean salinity, mixed layer budgets, CMIP6 evaluation, and water cycle change."
     />
     <title>Yuxuan Lyu | Physical Oceanography</title>
-    <!-- build: methods-heading-20260526 -->
+    <!-- build: deploy-refresh-20260527 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=methods-heading" />
+    <link rel="stylesheet" href="styles.css?v=deploy-refresh-20260527" />
   </head>
   <body>
     <header class="site-header" data-header>
@@ -27,58 +27,66 @@
         <a href="#background" data-i18n="nav.background">Background</a>
       </nav>
       <div class="header-actions">
-        <div class="language-switch" role="group" aria-label="Language selection">
-          <button class="language-option is-active" type="button" data-language-button="en" aria-pressed="true">EN</button>
-          <button class="language-option" type="button" data-language-button="zh" aria-pressed="false">简中</button>
+        <div class="language-switch" aria-label="Language selector">
+          <button class="is-active" type="button" data-language-button="en" aria-pressed="true">EN</button>
+          <button type="button" data-language-button="zh" aria-pressed="false">简</button>
         </div>
         <a class="header-link" href="mailto:yuxuan.lyu@utas.edu.au" data-i18n="nav.email">Email</a>
       </div>
     </header>
 
     <main id="top">
-      <section class="hero section-shell">
+      <section class="hero-section section-shell" aria-labelledby="hero-title">
         <div class="hero-copy">
           <p class="eyebrow" data-i18n="hero.eyebrow">Physical oceanography · Ocean salinity · Climate change</p>
-          <h1>Yuxuan Lyu</h1>
-          <p class="hero-title" data-i18n="hero.title">PhD candidate</p>
-          <p class="affiliation" data-i18n="hero.affiliation">
+          <h1 id="hero-title">Yuxuan Lyu</h1>
+          <p class="hero-role" data-i18n="hero.title">PhD candidate</p>
+          <p class="hero-affiliation" data-i18n="hero.affiliation">
             Australian Centre for Excellence in Antarctic Science (ACEAS)<br />
             Institute for Marine and Antarctic Studies (IMAS), University of Tasmania<br />
             Hobart, Tasmania, Australia
           </p>
           <p class="hero-summary" data-i18n="hero.summary">
             Ocean salinity is more than the ocean's rain gauge: it carries the imprint of
-            freshwater forcing, circulation, mixing, and water mass history. My PhD follows
-            that signal from observed mixed layer salinity budgets and CMIP6 historical
-            evaluation to future SSS responses under global warming, then into the full depth
-            ocean interior where forced salinity change emerges from natural variability.
+            freshwater forcing, circulation, mixing, and water mass history. My PhD follows that
+            signal from observed mixed layer salinity budgets and CMIP6 historical evaluation to
+            future SSS responses under global warming, then into the full depth ocean interior where
+            forced salinity change emerges from natural variability.
           </p>
-          <div class="hero-actions" aria-label="Contact and profile links">
-            <a class="button primary" href="mailto:yuxuan.lyu@utas.edu.au">yuxuan.lyu@utas.edu.au</a>
-            <a class="button secondary" href="https://orcid.org/0000-0003-0785-5418">ORCID</a>
+          <div class="hero-links" aria-label="Contact links">
+            <a href="mailto:yuxuan.lyu@utas.edu.au">yuxuan.lyu@utas.edu.au</a>
+            <a href="https://orcid.org/0000-0003-0785-5418">ORCID</a>
           </div>
         </div>
         <figure class="portrait-wrap">
-          <img src="assets/yuxuan-lyu.webp?v=portrait-webp-q75" alt="Portrait of Yuxuan Lyu" />
+          <img src="assets/profile.jpg" alt="Portrait of Yuxuan Lyu" />
         </figure>
       </section>
 
-      <section class="diagnostic-strip" aria-label="Research diagnostic principles">
-        <div>
+      <section class="diagnostic-strip" aria-label="Research logic">
+        <article>
           <span>01</span>
-          <strong data-i18n="diagnostic.1.title">Observed salinity mechanisms</strong>
-          <p data-i18n="diagnostic.1.body">Identify how surface freshwater forcing, advection, vertical exchange, and mixing shape observed salinity change.</p>
-        </div>
-        <div>
+          <h2 data-i18n="diagnostic.1.title">Observed salinity mechanisms</h2>
+          <p data-i18n="diagnostic.1.body">
+            Identify how surface freshwater forcing, advection, vertical exchange, and mixing shape
+            observed salinity change.
+          </p>
+        </article>
+        <article>
           <span>02</span>
-          <strong data-i18n="diagnostic.2.title">CMIP6 model evaluation</strong>
-          <p data-i18n="diagnostic.2.body">Test whether historical simulations reproduce observed salinity structure, variability, and long term change.</p>
-        </div>
-        <div>
+          <h2 data-i18n="diagnostic.2.title">CMIP6 model evaluation</h2>
+          <p data-i18n="diagnostic.2.body">
+            Test whether historical simulations reproduce observed salinity structure, variability,
+            and long term change.
+          </p>
+        </article>
+        <article>
           <span>03</span>
-          <strong data-i18n="diagnostic.3.title">Future surface and interior salinity</strong>
-          <p data-i18n="diagnostic.3.body">Connect future SSS change with global warming, then follow the signal below the surface.</p>
-        </div>
+          <h2 data-i18n="diagnostic.3.title">Future surface and interior salinity</h2>
+          <p data-i18n="diagnostic.3.body">
+            Connect future SSS change with global warming, then follow the signal below the surface.
+          </p>
+        </article>
       </section>
 
       <section id="research" class="section-shell split-section">
@@ -90,100 +98,90 @@
             record rainfall and evaporation. Currents, mixed layer depth, entrainment, subduction,
             and internal variability all reshape the freshwater signal. I use mixed layer salt
             budgets to diagnose observed salinity change, then test how well CMIP6 historical
-            simulations reproduce the same structure, variability, and trends. From there, I ask
-            how salinity responds under future climate scenarios, and where familiar patterns are
+            simulations reproduce the same structure, variability, and trends. From there, I ask how
+            salinity responds under future climate scenarios, and where familiar patterns are
             amplified, weakened, or reorganized.
           </p>
         </div>
-        <div class="process-map" aria-label="Salinity diagnostic workflow">
-          <div class="process-node active">
+        <div class="research-flow" aria-label="Research sequence">
+          <div>
             <span data-i18n="process.1.label">Observed mechanisms</span>
             <strong data-i18n="process.1.title">Mixed layer salinity budget</strong>
           </div>
-          <div class="process-arrow" aria-hidden="true"></div>
-          <div class="process-node">
+          <div>
             <span data-i18n="process.2.label">Model evaluation</span>
             <strong data-i18n="process.2.title">CMIP6 historical salinity fidelity</strong>
           </div>
-          <div class="process-arrow" aria-hidden="true"></div>
-          <div class="process-node">
+          <div>
             <span data-i18n="process.3.label">Future change</span>
             <strong data-i18n="process.3.title">Scenario responses · pattern shifts</strong>
           </div>
         </div>
       </section>
 
-      <section id="chapters" class="chapter-section">
+      <section id="chapters" class="chapters-section">
         <div class="section-shell">
-          <div class="section-heading">
-            <p class="eyebrow" data-i18n="chapters.eyebrow">Research chapters</p>
-            <h2 data-i18n="chapters.heading">PhD research chapters</h2>
-          </div>
-
+          <p class="eyebrow" data-i18n="chapters.eyebrow">Research chapters</p>
+          <h2 data-i18n="chapters.heading">PhD research chapters</h2>
           <div class="chapter-grid">
-            <article class="feature-card">
-              <div class="card-kicker" data-i18n="chapter1.kicker">Chapter 1 · Published article</div>
+            <article class="chapter-card">
+              <p class="chapter-kicker" data-i18n="chapter1.kicker">Chapter 1 · Published article</p>
               <h3 data-i18n="chapter1.title">Global water cycle pattern amplification: contributing factors and mechanisms</h3>
               <p data-i18n="chapter1.body1">
-                This article asks why salinity pattern amplification does not simply mirror
-                the atmospheric freshwater flux. Mixed layer salinity budgets across ocean data
-                products let me separate surface forcing from horizontal advection, vertical
-                exchange, diffusion, and entrainment.
+                This article asks why salinity pattern amplification does not simply mirror the
+                atmospheric freshwater flux. Mixed layer salinity budgets across ocean data products
+                let me separate surface forcing from horizontal advection, vertical exchange,
+                diffusion, and entrainment.
               </p>
               <p data-i18n="chapter1.body2">
                 The result is a process based view of the water cycle. Horizontal processes
-                redistribute salinity in evaporation dominated subtropical regions, while
-                vertical processes transfer freshwater signals into deeper layers in
-                precipitation dominated regions.
+                redistribute salinity in evaporation dominated subtropical regions, while vertical
+                processes transfer freshwater signals into deeper layers in precipitation dominated
+                regions.
               </p>
-              <a class="button secondary" href="https://doi.org/10.1029/2024JC022278" data-i18n="chapter1.button">
-                Read the published article
-              </a>
-              <ul class="tag-list" aria-label="Chapter 1 methods">
-                <li data-i18n="chapter1.tag1">Mixed layer budget</li>
-                <li data-i18n="chapter1.tag2">Freshwater transport</li>
-                <li data-i18n="chapter1.tag3">Pattern amplification</li>
-                <li data-i18n="chapter1.tag4">Ocean dynamics</li>
-              </ul>
+              <a class="chapter-link" href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JC022278" data-i18n="chapter1.button">Read the published article</a>
+              <div class="tag-list">
+                <span data-i18n="chapter1.tag1">Mixed layer budget</span>
+                <span data-i18n="chapter1.tag2">Freshwater transport</span>
+                <span data-i18n="chapter1.tag3">Pattern amplification</span>
+                <span data-i18n="chapter1.tag4">Ocean dynamics</span>
+              </div>
             </article>
-
-            <article class="feature-card">
-              <div class="card-kicker" data-i18n="chapter2.kicker">Chapter 2 · Submitted to Journal of Climate</div>
+            <article class="chapter-card">
+              <p class="chapter-kicker" data-i18n="chapter2.kicker">Chapter 2 · Submitted to Journal of Climate</p>
               <h3 data-i18n="chapter2.title">A comprehensive evaluation of ocean salinity in CMIP6 historical simulations</h3>
               <p data-i18n="chapter2.body1">
-                Here I evaluate how 18 CMIP6 historical simulations represent global ocean
-                salinity over 1979-2014. I compare surface freshwater fluxes, sea surface
-                salinity, upper 2000 m salinity structure, and water mass extrema with
-                observational and reanalysis products, asking where models capture the observed
-                mean state and where they miss multidecadal change.
+                Here I evaluate how 18 CMIP6 historical simulations represent global ocean salinity
+                over 1979-2014. I compare surface freshwater fluxes, sea surface salinity, upper
+                2000 m salinity structure, and water mass extrema with observational and reanalysis
+                products, asking where models capture the observed mean state and where they miss
+                multidecadal change.
               </p>
               <p data-i18n="chapter2.body2">
-                The key contrast is between mean state skill and trend skill. CMIP6 models
-                reproduce the broad climatological salinity pattern, but long term SSS and
-                subsurface trends show weak spatial agreement with observations, large model to
-                model spread, and strong cancellation in the multi model mean. Subsurface
-                diagnostics reveal a fresh over salty bias, shallow subtropical salinity maxima,
-                and basin dependent intermediate water errors, pointing to ocean transport,
-                ventilation, and mixing as central limits on model fidelity.
+                The key contrast is between mean state skill and trend skill. CMIP6 models reproduce
+                the broad climatological salinity pattern, but long term SSS and subsurface trends
+                show weak spatial agreement with observations, large model to model spread, and
+                strong cancellation in the multi model mean. Subsurface diagnostics reveal a fresh
+                over salty bias, shallow subtropical salinity maxima, and basin dependent
+                intermediate water errors, pointing to ocean transport, ventilation, and mixing as
+                central limits on model fidelity.
               </p>
-              <ul class="tag-list" aria-label="Chapter 2 methods">
-                <li data-i18n="chapter2.tag1">18 CMIP6 models</li>
-                <li data-i18n="chapter2.tag2">E-P and SSS trends</li>
-                <li data-i18n="chapter2.tag3">Smax/Smin extrema</li>
-                <li data-i18n="chapter2.tag4">Taylor skill metrics</li>
-                <li data-i18n="chapter2.tag5">Water mass biases</li>
-              </ul>
+              <div class="tag-list">
+                <span data-i18n="chapter2.tag1">18 CMIP6 models</span>
+                <span data-i18n="chapter2.tag2">E-P and SSS trends</span>
+                <span data-i18n="chapter2.tag3">Smax/Smin extrema</span>
+                <span data-i18n="chapter2.tag4">Taylor skill metrics</span>
+                <span data-i18n="chapter2.tag5">Water mass biases</span>
+              </div>
             </article>
-
-            <article class="feature-card accent">
-              <div class="card-kicker" data-i18n="chapter3.kicker">Chapter 3 · Future sea surface salinity</div>
+            <article class="chapter-card">
+              <p class="chapter-kicker" data-i18n="chapter3.kicker">Chapter 3 · Future sea surface salinity</p>
               <h3 data-i18n="chapter3.title">Future SSS responses to scenarios and global warming</h3>
               <p data-i18n="chapter3.body1">
-                This chapter looks at future sea surface salinity across CMIP6 scenario
-                simulations and global warming levels. Rather than stopping at end of century
-                maps, I build a relationship between SSS change and global mean warming, asking
-                where the response scales with warming and where it depends on pathway, basin,
-                or ocean circulation.
+                This chapter looks at future sea surface salinity across CMIP6 scenario simulations
+                and global warming levels. Rather than stopping at end of century maps, I build a
+                relationship between SSS change and global mean warming, asking where the response
+                scales with warming and where it depends on pathway, basin, or ocean circulation.
               </p>
               <p data-i18n="chapter3.body2">
                 Here I look for places where future salinity departs from the simple expectation
@@ -191,109 +189,96 @@
                 whether surface freshwater forcing, advection, mixed layer processes, and regional
                 circulation create a new water cycle fingerprint under stronger warming.
               </p>
-              <ul class="tag-list" aria-label="Chapter 3 methods">
-                <li data-i18n="chapter3.tag1">Future SSS</li>
-                <li data-i18n="chapter3.tag2">SSP scenarios</li>
-                <li data-i18n="chapter3.tag3">Warming response</li>
-                <li data-i18n="chapter3.tag4">New SSS patterns</li>
-                <li data-i18n="chapter3.tag5">Mechanism diagnosis</li>
-              </ul>
+              <div class="tag-list">
+                <span data-i18n="chapter3.tag1">Future SSS</span>
+                <span data-i18n="chapter3.tag2">SSP scenarios</span>
+                <span data-i18n="chapter3.tag3">Warming response</span>
+                <span data-i18n="chapter3.tag4">New SSS patterns</span>
+                <span data-i18n="chapter3.tag5">Mechanism diagnosis</span>
+              </div>
             </article>
-
-            <article class="feature-card accent">
-              <div class="card-kicker" data-i18n="chapter4.kicker">Chapter 4 · Ocean interior salinity</div>
+            <article class="chapter-card">
+              <p class="chapter-kicker" data-i18n="chapter4.kicker">Chapter 4 · Ocean interior salinity</p>
               <h3 data-i18n="chapter4.title">Full depth salinity emergence and interior ocean change</h3>
               <p data-i18n="chapter4.body1">
                 This final research chapter follows salinity into the full ocean depth. I use
                 emergence diagnostics to identify where forced salinity signals rise above
-                background variability. Interior salinity is treated as a record of water mass
-                and circulation change, not simply the downward extension of surface freshening
-                or salinification.
+                background variability. Interior salinity is treated as a record of water mass and
+                circulation change, not simply the downward extension of surface freshening or
+                salinification.
               </p>
               <p data-i18n="chapter4.body2">
                 Using a heave and spice decomposition inspired by Bindoff and McDougall (1994), I
-                separate changes associated with vertical displacement of density surfaces from
-                water mass property changes. This links interior salinity emergence to AMOC
-                weakening, ventilation changes, subduction, and basin scale redistribution, and
-                asks what new patterns of future interior salinity change emerge.
+                separate changes associated with vertical displacement of density surfaces from water
+                mass property changes. This links interior salinity emergence to AMOC weakening,
+                ventilation changes, subduction, and basin scale redistribution, and asks what new
+                patterns of future interior salinity change emerge.
               </p>
-              <ul class="tag-list" aria-label="Chapter 4 methods">
-                <li data-i18n="chapter4.tag1">Full depth emergence</li>
-                <li data-i18n="chapter4.tag2">BM94 heave/spice</li>
-                <li data-i18n="chapter4.tag3">AMOC weakening</li>
-                <li data-i18n="chapter4.tag4">Density surface change</li>
-                <li data-i18n="chapter4.tag5">Interior water masses</li>
-              </ul>
+              <div class="tag-list">
+                <span data-i18n="chapter4.tag1">Full depth emergence</span>
+                <span data-i18n="chapter4.tag2">BM94 heave/spice</span>
+                <span data-i18n="chapter4.tag3">AMOC weakening</span>
+                <span data-i18n="chapter4.tag4">Density surface change</span>
+                <span data-i18n="chapter4.tag5">Interior water masses</span>
+              </div>
             </article>
           </div>
         </div>
       </section>
 
-      <section id="publications" class="section-shell">
-        <div class="section-heading">
+      <section id="publications" class="section-shell publications-section">
+        <div>
           <p class="eyebrow" data-i18n="publications.eyebrow">Publications and outputs</p>
           <h2 data-i18n="publications.heading">Selected work</h2>
         </div>
         <div class="publication-list">
           <article>
-            <span class="pub-year">2025</span>
-            <h3>Global Water Cycle Pattern Amplification: Contributing Factors and Mechanisms</h3>
-            <p data-i18n="publications.pub1.body">
-              Y. Lyu, N. L. Bindoff, S. Mohapatra, S. Rathore, and H. E. Phillips.
-              <em>Journal of Geophysical Research: Oceans</em>, 130(9), e2024JC022278.
-            </p>
-            <a href="https://doi.org/10.1029/2024JC022278">doi.org/10.1029/2024JC022278</a>
+            <span>2025</span>
+            <h3><a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024JC022278">Global water cycle pattern amplification: contributing factors and mechanisms</a></h3>
+            <p data-i18n="publications.pub1.body">Y. Lyu, N. L. Bindoff, S. Mohapatra, S. Rathore, and H. E. Phillips. <em>Journal of Geophysical Research: Oceans</em>, 130(9), e2024JC022278.</p>
           </article>
           <article>
-            <span class="pub-year">2025</span>
-            <h3>Climate Modes evaluation datasets from CMIP6 pre-industrial control simulations and observations</h3>
-            <p data-i18n="publications.pub2.body">
-              S. Mohapatra, A. Sen Gupta, N. L. Bindoff, and Y. Lyu.
-              <em>Earth System Science Data Discussions</em>, in review.
-            </p>
-            <a href="https://doi.org/10.5194/essd-2025-618">doi.org/10.5194/essd-2025-618</a>
+            <span>2025</span>
+            <h3>Multidecadal ocean salinity changes: the anthropogenic fingerprint and ocean memory</h3>
+            <p data-i18n="publications.pub2.body">S. Mohapatra, A. Sen Gupta, N. L. Bindoff, and Y. Lyu. <em>Earth System Science Data Discussions</em>, in review.</p>
           </article>
           <article>
-            <span class="pub-year">2025</span>
+            <span>2026</span>
             <h3>A comprehensive evaluation of ocean salinity in CMIP6 historical simulations</h3>
-            <p data-i18n="publications.pub3.body">
-              Y. Lyu, N. Bindoff, S. Mohapatra, S. Rathore, and H. Phillips.
-              Submitted to <em>Journal of Climate</em>; conference version presented at
-              the <em>EGU General Assembly</em>, Vienna, Austria.
-            </p>
-            <a href="https://doi.org/10.5194/egusphere-egu25-9412">doi.org/10.5194/egusphere-egu25-9412</a>
+            <p data-i18n="publications.pub3.body">Y. Lyu, N. Bindoff, S. Mohapatra, S. Rathore, and H. Phillips. Submitted to <em>Journal of Climate</em>; conference version presented at the <em>EGU General Assembly</em>, Vienna, Austria.</p>
           </article>
         </div>
       </section>
 
-      <section id="background" class="section-shell background-grid">
-        <div>
-          <p class="eyebrow" data-i18n="background.eyebrow">Education</p>
-          <h2 data-i18n="background.heading">Academic background</h2>
+      <section id="background" class="background-section">
+        <div class="section-shell background-grid">
+          <div>
+            <p class="eyebrow" data-i18n="background.eyebrow">Education</p>
+            <h2 data-i18n="background.heading">Academic background</h2>
+          </div>
           <div class="timeline">
             <article>
               <span data-i18n="background.phd.date">2022 to 2026 expected</span>
               <h3 data-i18n="background.phd.title">PhD candidate, University of Tasmania</h3>
-              <p data-i18n="background.phd.body">
-                Tracking human and natural changes in ocean salinity: evidence for Earth's
-                accelerating water cycle.
-              </p>
+              <p data-i18n="background.phd.body">Tracking human and natural changes in ocean salinity: evidence for Earth's accelerating water cycle.</p>
               <p data-i18n="background.phd.supervisors">Supervisors and collaborators: Nathaniel Bindoff, Helen Phillips, Sandeep Mohapatra, Saurabh Rathore, and Jiheun Lee.</p>
             </article>
             <article>
-              <span>2021</span>
+              <span>2020 to 2022</span>
               <h3 data-i18n="background.bsc1.title">BSc, Marine and Antarctic Science, University of Tasmania</h3>
               <p data-i18n="background.bsc1.body">Physical oceanography.</p>
             </article>
             <article>
-              <span>2021</span>
+              <span>2018 to 2020</span>
               <h3 data-i18n="background.bsc2.title">BSc, Marine Science, Ocean University of China</h3>
               <p data-i18n="background.bsc2.body">Joint Education Program.</p>
             </article>
           </div>
         </div>
+      </section>
 
-        <aside class="skill-panel">
+      <section class="section-shell skills-section" aria-label="Methods and tools">
+        <div class="skills-panel">
           <p class="eyebrow" data-i18n="skills.eyebrow">Methods</p>
           <h2 data-i18n="skills.heading">Scientific toolkit</h2>
           <ul>
@@ -304,7 +289,7 @@
             <li data-i18n="skills.item5">Interior ocean salinity and water mass diagnostics</li>
             <li data-i18n="skills.item6">Python focused analysis, large gridded data workflows, visualization, Bash, MATLAB, and HPC</li>
           </ul>
-        </aside>
+        </div>
       </section>
     </main>
 
@@ -314,7 +299,7 @@
       <a href="https://orcid.org/0000-0003-0785-5418">ORCID 0000-0003-0785-5418</a>
     </footer>
 
-    <script src="script-human.js?v=methods-heading"></script>
+    <script src="script-human.js?v=deploy-refresh-20260527"></script>
     <script>
       (() => {
         const collaboratorText = {
